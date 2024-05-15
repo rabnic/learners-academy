@@ -1,0 +1,70 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SubjectServlet</servlet-name>
+  	<display-name>SubjectServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.SubjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TeacherServlet</servlet-name>
+  	<display-name>TeacherServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ClassServlet</servlet-name>
+  	<display-name>ClassServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.ClassServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StudentServlet</servlet-name>
+  	<display-name>StudentServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.StudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SubjectClassServlet</servlet-name>
+  	<display-name>SubjectClassServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.SubjectClassServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SubjectServlet</servlet-name>
+  	<url-pattern>/SubjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TeacherServlet</servlet-name>
+  	<url-pattern>/TeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClassServlet</servlet-name>
+  	<url-pattern>/ClassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>StudentServlet</servlet-name>
+  	<url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SubjectClassServlet</servlet-name>
+  	<url-pattern>/SubjectClassServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
